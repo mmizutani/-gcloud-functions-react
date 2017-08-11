@@ -1,6 +1,6 @@
 {
-  "name": "cloud-function-auth-test",
-  "homepage": "https://odewahn.github.io/cloud-functions-with-react",
+  "name": "gcloud-functions-react",
+  "homepage": "https://mmizutani.github.io/gcloud-functions-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build&&gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "proxy": "http://localhost:8010/"
 }
